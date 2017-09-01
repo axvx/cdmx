@@ -1,0 +1,40 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.axbx.cdmx.Detalle">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/promopapajohns" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/logopapa" />
+
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Papa John’s Pizza  20% en pizzas grandes y extragrandes  Valida en pizzas de Especialida en sucursales de DF y área metropolitana( a excepción de sucursal Granja las Américas)  Promoción Valida en la compra de pizzas de precio de menú.no valido en conjunto con otros cupones y/o descuentos. Mencionar la clave: PAGA01 al realiza el pedido los roces , participación y zonas de entrega a domicilio pueden variar" />
+
+
+
+
+
+</LinearLayout>
